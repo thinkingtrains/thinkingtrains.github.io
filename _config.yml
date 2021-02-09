@@ -18,7 +18,7 @@ baseurl                  : "/"
 repository               : "thinkingtrains/thinkingtrains.github.io"
 teaser                   : "/assets/images/logo500.png"
 logo                     : "/assets/images/logo88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -260,6 +260,12 @@ compress_html:
     envs: development
 
 
+collections:
+  about:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -273,4 +279,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
