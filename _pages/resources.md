@@ -1,0 +1,11 @@
+---
+title:  "Thinking Trains Resources"
+layout: collection
+permalink: /resources/
+entries_layout: grid
+classes: wide
+---
+
+{% for post in site.resources %}
+  {% include archive-single.html %}
+{% endfor %}

@@ -264,6 +264,18 @@ collections:
   about:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
+  tech:
+    output: true
+    permalink: /:collection/:path/
+  kingsx:
+    output: true
+    permalink: /:collection/:path/
+  resources:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
