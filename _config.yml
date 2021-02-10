@@ -22,7 +22,7 @@ masthead_title           : " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : false # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,7 +43,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -63,9 +63,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "thinkingtrains"
 facebook:
-  username               :
+  username               : "rvoisey"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -115,14 +115,14 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+      icon:  "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Thinking_Trains"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url:  "https://www.facebook.com/groups/thinkingtrains"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url:  "https://github.com/thinkingtrains"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -267,7 +267,13 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-  tech:
+  tech-pway:
+    output: true
+    permalink: /:collection/:path/
+  tech-driver:
+    output: true
+    permalink: /:collection/:path/
+  tech-control:
     output: true
     permalink: /:collection/:path/
   kingsx:

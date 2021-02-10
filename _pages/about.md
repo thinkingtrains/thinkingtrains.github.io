@@ -1,6 +1,6 @@
 ---
 title:  "Introduction to Thinking Trains"
-layout: collection
+layout: single
 permalink: /about/
 entries_layout: grid
 classes: wide

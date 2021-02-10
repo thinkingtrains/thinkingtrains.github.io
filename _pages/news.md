@@ -1,6 +1,6 @@
 ---
 title:  "Thinking Trains News"
-layout: collection
+layout: single
 permalink: /news/
 entries_layout: grid
 classes: wide

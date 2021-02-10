@@ -2,6 +2,7 @@
 layout: single
 title:  "Thinking Trains is live!"
 date:   2021-02-10 03:15:00
+share:  true
 ---
 
 Welcome to the Thinking Trains web site! This is an open source project

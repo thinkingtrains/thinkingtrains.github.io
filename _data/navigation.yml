@@ -10,3 +10,31 @@ main:
     url: /kingsx/
   - title: "Resources"
     url: /resources/
+
+tech:
+  - title: Permanent Way
+    children:
+      - title: "Design"
+        url: /tech/pway/design
+      - title: "Hardware"
+        url: /tech/pway/hw
+      - title: "Software"
+        url: /tech/pway/sw
+
+  - title: Train Driver
+    children:
+      - title: "Design"
+        url: /tech/pway/design
+      - title: "Hardware"
+        url: /tech/pway/hw
+      - title: "Software"
+        url: /tech/pway/sw
+
+  - title: Control Panel
+    children:
+      - title: "Design"
+        url: /tech/pway/design
+      - title: "Hardware"
+        url: /tech/pway/hw
+      - title: "Software"
+        url: /tech/pway/sw

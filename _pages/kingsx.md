@@ -1,6 +1,6 @@
 ---
 title:  "Thinking Trains Kings Cross Layout"
-layout: collection
+layout: single
 permalink: /kingsx/
 entries_layout: grid
 classes: wide

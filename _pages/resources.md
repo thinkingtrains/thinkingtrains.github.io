@@ -1,6 +1,6 @@
 ---
 title:  "Thinking Trains Resources"
-layout: collection
+layout: single
 permalink: /resources/
 entries_layout: grid
 classes: wide
