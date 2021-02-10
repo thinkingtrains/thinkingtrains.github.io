@@ -9,11 +9,6 @@ Cambridge UK. I plan to develop most of the hardware and software for the
 project, and build the King Cross layout. However I hope to attract some
 interest in the project and bring on collaborators as it grows.
 
-As well as a fun project, I plan to use the Kings Cross layout as a
-technology demonstrator at trade shows for my company, [Fen Consultants Ltd](https://fenconsultants.com).
-Tech consultancy trade booths are usually boring as hell - this one
-won't be!
-
 You can contact me at [rob@thinkingtrains.org](mailto:rob@thinkingtrains.org).
 
 ## Collaborators
