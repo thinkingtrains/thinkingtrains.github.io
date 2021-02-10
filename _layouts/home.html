@@ -1,27 +1,22 @@
 ---
-layout: archive
+layout: single
 ---
 
 {{ content }}
 
 <div align="center">
   <img src="{{ "/assets/images/logo256.png" | relative_url }}" alt="Thinking Trains">
-  <p>Welcome to the Self Driving Model Railway Project</p>
+  <p><br>The Self Driving Model Railway Project</p>
 </div>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.news %}
-{% endif %}
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+{% for collection in site.collections %}
+  {% assign name = collection.label %}
+    {% for post in site.[name] limit:2 %}
+      {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+{% endfor %}
 </div>
-
-{% include paginator.html %}
