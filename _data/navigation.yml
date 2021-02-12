@@ -20,21 +20,25 @@ tech:
         url: /tech/pway/hw
       - title: "Software"
         url: /tech/pway/sw
+      - title: "Network Module"
+        url: /tech/pway/network
+      - title: "RFID Sensor"
+        url: /tech/pway/rfid
 
   - title: Train Driver
     children:
       - title: "Design"
-        url: /tech/pway/design
+        url: /tech/train/design
       - title: "Hardware"
-        url: /tech/pway/hw
+        url: /tech/train/hw
       - title: "Software"
-        url: /tech/pway/sw
+        url: /tech/train/sw
 
   - title: Control Panel
     children:
       - title: "Design"
-        url: /tech/pway/design
+        url: /tech/control/design
       - title: "Hardware"
-        url: /tech/pway/hw
+        url: /tech/control/hw
       - title: "Software"
-        url: /tech/pway/sw
+        url: /tech/control/sw

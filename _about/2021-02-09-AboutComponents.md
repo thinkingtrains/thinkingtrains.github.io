@@ -15,10 +15,10 @@ Panel (such as setting a route) to specific actions on the layout (just as
 moving points and signals). Its main responsibilities are:
 
 * Accept commands from the Control Panel.
-* Provide power to the track and elsewhere on the layout.
-* Send rail data such as block identification and signal states.
+* Provide power to the track with optional DCC.
+* Sense block occupation and communicate to trains.
 * Set and sense points (turnouts / switches).
-* Set signals.
+* Set signals and other active furniture.
 
 ## Train Driver
 
@@ -29,7 +29,7 @@ rules. In essence it simulates the behaviour of a real train driver, but
 without all the tea drinking. Its main responsibilities are:
 
 * Implement train driving logic (the "expert machine").
-* Derive the position of the train, including block number and distance within a block.
+* Derive the precise position of the train on the layout.
 * Respond to signals, speed limits and shunt instructions.
 * Set the train speed and direction of travel.
 * Control any lighting, sound and other effects that the model has available.
