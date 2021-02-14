@@ -65,9 +65,8 @@ others. Ethernet and WiFi both have futher advantages:
 For this reason the network interface will be implemented as a submodule, so
 the final decision can be deferred pending testing. With proper abstraction it
 would be possible to support multiple networking standards for different
-applications. Initially WiFi will be implemented as this will be the most
-convenient solution if it proves robust enough, even in busy exhibition halls.
-Ethernet will be the fallback option.
+applications. Initially Ethernet will be implemented, but WiFi might be a
+good future option for eliminating a lot of wiring from large layouts.
 
 ## Rail Power / DCC
 

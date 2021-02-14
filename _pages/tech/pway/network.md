@@ -14,7 +14,8 @@ The Network module is a sub-module of the P-Way module. It allows for
 different networking standards to be implemented which may change during the
 development of Thinking Trains.
 
-Initially it is planned to develop 100Base-T Ethernet and 802.11 WiFi modules.
+Initially it is planned to develop a 100Base-T Ethernet module, with a
+possible WiFi module to follow.
 
 ## Physical Interface
 
